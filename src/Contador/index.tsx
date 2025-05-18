@@ -36,7 +36,7 @@ export function Contador() {
         backgroundPosition: 'center',
       }}
     >
-      <div className="absolute inset-0 bg-black/35 backdrop-blur-[4px]"></div>
+      <div className="absolute inset-0 bg-black/35 backdrop-blur-[2.5px]"></div>
 
       <div className="relative z-10 p-4 flex flex-col gap-88 sm:p-6">
         <div className="flex sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6">
