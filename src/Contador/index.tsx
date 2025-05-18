@@ -29,7 +29,7 @@ export function Contador() {
 
   return (
     <div
-      className="relative flex lg:pt-20 sm:pt-52 justify-center min-h-screen text-center text-white"
+      className="relative flex pt-20 lg:pt-20 sm:pt-52 justify-center min-h-screen text-center text-white"
       style={{
         backgroundImage: `url(${nosso_amor})`,
         backgroundSize: 'cover',
