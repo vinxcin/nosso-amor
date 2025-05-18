@@ -29,7 +29,7 @@ export function Contador() {
 
   return (
     <div
-      className="relative flex items-center justify-center min-h-screen text-center text-white"
+      className="relative flex pt-24 sm:pt-52 justify-center min-h-screen text-center text-white"
       style={{
         backgroundImage: `url(${nosso_amor})`,
         backgroundSize: 'cover',
@@ -38,9 +38,9 @@ export function Contador() {
     >
       <div className="absolute inset-0 bg-black/35 backdrop-blur-[4px]"></div>
 
-      <div className="relative z-10 p-4 sm:p-6">
+      <div className="relative z-10 p-4 flex flex-col gap-88 sm:p-6">
         <div className="flex sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6">
-          <h1 className="text-7xl sm:text-6xl md:text-8xl lg:text-9xl font-bold titulo-romantico">
+          <h1 className="text-8xl sm:text-8xl md:text-8xl lg:text-9xl font-bold titulo-romantico">
             Estamos juntos há
           </h1>
           <p className="text-7xl sm:text-5xl md:text-7xl animate-pulse text-red-400"> 💚</p>
